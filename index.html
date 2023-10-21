@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SG-Portfolio</title>
+    <!-- --font awsome-- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poller+One&family=Poppins:wght@400;500;700&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- external css|js links -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section  -->
+    <header class="bg- navbar">
+      <!-- navbar  -->
+      <div class="container ">
+        <nav class=" splitter space-between">
+          <!-- logo -->
+          <img class="logo" src="images/logo.png" alt="brand_logo" />
+          <!-- hamburger icon  -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="humburger-icon">&#9776;</label>
+          <!-- nav item  -->
+          <ul class="nav_list mt-n-spacer mt-m-spacer mx-auto">
+            <li class="nav_item"><a href="#hero-section">Home</a></li>
+            <li class="nav_item"><a href="#about-section">About</a></li>
+            <li class="nav_item"><a href="#service-section">Service</a></li>
+            <li class="nav_item"><a href="#portfolio-section">Portfolio</a></li>
+            <li class="nav_item"><a href="#contact-section">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Hero section  -->
+      <section class="hero bg-neutral-100" id="hero-section">
+        <div class="container splitter content-v-center">
+          <div class="intro mt-n-spacer mt-l-spacer text-center flex-1">
+            <h4>Hi, Welcome to</h4>
+            <h1>Himayarna</h1>
+            <p class="text-40ch">
+              Transform your ideas into captivating and functional websites that
+              leave a lasting impression on you.
+            </p>
+            <a href="#" class="btn bg-">Explore</a>
+          </div>
+
+          <div class="hero_img flex-1">
+            <img
+              class="mountain"
+              src="images/snow_mountain.png"
+              alt="snow_mountain"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- About me section  -->
+      <section class="about_me" id="about-section">
+        <div class="container">
+          <h1 class="heading text-center mb-l-spacer">About me</h1>
+          <div class="splitter">
+            <div class="author flex-1">
+              <img
+                class="dev_img"
+                src="images/developer_img.png"
+                alt="dev_picture"
+              />
+            </div>
+            <div class="dev flex-1 text-center">
+              <div class="wrapper mt-n-spacer mt-l-spacer">
+                <h2 class="dev_name">I'm Naing Win</h2>
+                <h3 class="dev_position sub-heading">
+                  a <em>frontend</em> developer<strong>.</strong>
+                </h3>
+                <p class="dev_bio text-40ch mx-auto">
+                  I'm from Myanmar, and passionate about designing and building a
+                  simple, elegant website. My interest also extends to technical
+                  skills of computer software and hardware. In my free time, I
+                  love drinking green tea and reading a book.
+                </p>
+              </div>
+            </div>
+          </div>
+             <!-- horizontal line  -->
+             <hr class="dotted-line">
+
+          <!-- skills  -->
+          <div class="dev_skills splitter">
+            <div class="skill-bars flex-1">
+              <!-- html bar  -->
+              <div class="html-bar bar">
+                <h4 class="bar_title">
+                  <span class="">Html</span>
+                  <span class="percentage html-mark">90%</span>
+                </h4>
+                 <div class="bar-outer">
+                  <div class="bar-progress html"></div>
+                 </div>
+              </div>
+              <!-- css bar  -->
+              <div class="css-bar bar">
+                <h4 class="bar_title">
+                  <span class="">Css</span>
+                  <span class="percentage css-mark">80%</span>
+                </h4>
+                 <div class="bar-outer">
+                  <div class="bar-progress css"></div>
+                 </div>
+              </div>
+              <!-- js bar  -->
+               <div class="js-bar bar">
+                <h4 class="bar_title">
+                  <span class="">Javascript</span>
+                  <span class="percentage js-mark">70%</span>
+                </h4>
+                 <div class="bar-outer">
+                  <div class="bar-progress js"></div>
+                 </div>
+              </div>
+            </div>
+
+          <!-- webdev_languages -->
+          <div class="language-img flex-1"><img class="lan-pic" src="images/web_skills.png" alt="web_languages" /></div>
+        </div>
+      </section>
+
+      <!-- Services section  -->
+      <section class="service" id="service-section">
+        <div class="container">
+          <h1 class="heading text-center mb-l-spacer">What I can do</h1>
+          <!-- webdesign -->
+          <div class="splitter mb-l-spacer">
+            <div class="flex-1"><img class="design-img" src="images/web_design.png" alt="web_design_image" /></div>
+            <div class="description flex-1">
+              <div class="text-40ch">
+                <h3 class="sub-heading">Web Design</h3>
+                <ul>
+                  <li>
+                    <p>Simple, clean and creative Website designs</p>
+                  </li>
+                  <li>
+                    <p>Responsive layouts with user-friendly navigation</p>
+                  </li>
+                  <li>
+                    <p>Designing your desirable ideas with user experience</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- webdevelopment -->
+          <div class="splitter">
+            <div class="flex-1 flex-order-2"><img class="design-img" src="images/web_development.png" alt="web_development_image" /></div>
+            <div class="description flex-1 flex-order-1">
+              <div class="text-40ch">
+                <h3 class="sub-heading">Web development</h3>
+                <ul>
+                  <li>
+                    <p>Build customized website with nice and clean designs</p>
+                  </li>
+                  <li>
+                    <p>
+                      Optimize performance and functionality with responsiveness
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Elevate your business online boosting your brand's image
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio section  -->
+      <section class="portfolio bg-neutral-50" id="portfolio-section">
+        <div class="container">
+          <h1 class="heading mb-l-spacer text-center"> Portfolio</h1>
+            <div class="project splitter">
+              <div class="card bg- mt-n-spacer flex-1">
+                <div class="port-img"><img src="images/wireframe.png" alt="wireframe_design_image" /></div>
+                <div class="pro-des">
+                  <ul class="num-list">
+                    <li class="num-item">
+                        <h3 class="sub-heading mb-n-spacer">Design Wireframe</h3>
+                        <p class="text-40ch">
+                          Turning idea into sketching creative wireframe of website.
+                        </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card bg- mt-n-spacer flex-1">
+                <div class="port-img" ><img class="" src="images/html_code.png" alt="development_image" /></div>
+                <ul class="num-list">
+                  <li class="num-item">
+                    <h3 class="sub-heading mb-n-spacer">Development</h3>
+                    <p class="text-40ch">Creating website with html, Css, javascript.</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="card bg- mt-n-spacer flex-1">
+                <div class="port-img"><img src="images/outcome.png" alt="outcome_image" /></div>
+                <ul class="num-list">
+                  <li class="num-item">
+                    <h3 class="sub-heading mb-n-spacer">Outcome</h3>
+                    <p class="text-40ch">Creation is successful with simple and creative designs.</p>
+                  </li>
+                </ul>
+              </div>
+        </div>
+      </section>
+      
+      <!-- Contact section  -->
+      <section class="contact" id="contact-section">
+        <div class="container">
+          <h1 class="heading text-center mb-l-spacer">Get in touch</h1>
+          <div class="wrap splitter">
+            <!-- contact_form 1 -->
+            <div class="contact_1 flex-1">
+              <form class="contact_form splitter" action="" method="post">
+                <div class="name_box">
+                  <lable class="text-label" for="name">Name</lable>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Your full name"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+                <div class="email_box">
+                  <label class="text-label" for="email">Email</label>
+                  <input
+                  
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Your email"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+                <div class="message_box">
+                  <lable class="text-label" for="message">Message</lable>
+                  <textarea
+                   
+                    name="message"
+                    id="message"
+                    cols="40"
+                    rows="10"
+                    placeholder="Write your message here"
+                    autocomplete="off"
+                    required
+                  ></textarea>
+                </div>
+                <div class="button">
+                  <button type="submit" class="btn bg-neutral-450">Send</button>
+                </div>
+              </form>
+            </div>
+            <div class="contact_2 flex-1">
+              <p class="contact_info">
+                We would like to hear from you. So feel free to reach us.
+              </p>
+              <hr class="horizon-line" />
+              <ul class="splitter right-address" id="contact-list">
+                  <li class="contact-item">
+                    <div class="left-icon"><i class=" fa-solid fa-phone-volume icon"></i></div>
+                    <div class="right-contact">
+                      <h3>Phone</h3>
+                      <span><a href="tel:09977666023" target="_blank">09977666023</a></span>
+                    </div>
+                  </li>
+                  <li class="contact-item">
+                    <div class="left-icon"><i class=" fa-solid fa-envelope icon"></i></div>
+                    <div class="right-contact">
+                      <h3>Email</h3>
+                      <span
+                        ><a href="mailto:snowgarden@gmail.com" target="_blank"
+                          >snowgarden@gmail.com</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+                  <li class="contact-item">
+                    <div class="left-icon"><i class=" fa-solid fa-house icon"></i></div>
+                    <div class="right-contact">
+                      <h3>Location</h3>
+                      <span
+                        ><a  href="#" target="_blank"
+                          >Small House, Cherry road, Main Avenue, Myanmar</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section  -->
+    <footer class="bg-neutral-100">
+      <div class="container">
+        <div class="footer-wrap splitter">
+          <div class="social_icons">
+            <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f so-icon f-icon"></i></a>
+           <a target="_blank" href="https://twitter.com/"> <i class="fa-brands fa-twitter so-icon"></i></a>
+            <a target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-youtube so-icon"></i></a>
+          </div>
+          <div class="copyright">
+            <p>Copyright &copy; 2023-2023 SG, All right reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+

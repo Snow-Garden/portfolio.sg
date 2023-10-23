@@ -106,6 +106,12 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+  /* prevent user from download images*/
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -khtml-user-drag: none;
+  user-select: none;
+  pointer-events: none;
 }
 
 /* -------------General layout--------------- */
